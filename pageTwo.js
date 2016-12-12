@@ -34,13 +34,17 @@ function firstDeal() {
 function displayPlayerCards() {
   for (i = 0; i < playerCards.length; i++) {
     var divName = "p" + (i + 1);
+    var divHolder = document.getElementById(divName);
     document.getElementById(divName).innerHTML = playerCards[i];
+    document.getElementById(divName).className="boxy";
   }
 }
 function displayDealerCards() {
   for (i = 0; i < dealerCards.length; i++) {
     var divName = "d" + (i + 1);
+    var divHolder = document.getElementById(divName);
     document.getElementById(divName).innerHTML = dealerCards[i];
+    document.getElementById(divName).className="boxy";
   }
 }
 function sumOfCards(cards) {

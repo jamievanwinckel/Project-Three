@@ -29,7 +29,6 @@ body {
     padding: 15px 32px;
     text-align: center;
     font-weight: bold;
-    display: inline-block;
     font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
@@ -47,6 +46,9 @@ body {
   margin: 1%;
   display: inline-block;
 }
+.sameBackGround {
+  background-color: #004600;
+}
 #top,
 #bottom {
     position: fixed;
@@ -59,4 +61,3 @@ body {
 }
 #bottom {
     bottom: 0;
-}
